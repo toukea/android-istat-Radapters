@@ -66,6 +66,11 @@ public class ItemTouchListenerAdapter extends GestureDetector.SimpleOnGestureLis
     }
 
     @Override
+    public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
+
+    }
+
+    @Override
     public void onShowPress(MotionEvent e) {
         View view = getChildViewUnder(e);
         if (view != null) {

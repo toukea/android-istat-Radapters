@@ -347,4 +347,13 @@ public abstract class DragDropTouchListener implements RecyclerView.OnItemTouchL
      */
     protected abstract void onItemDrop(RecyclerView recyclerView, int position);
 
+
+    public void setCustomDragHighlight(Drawable dragHighlight) {
+        this.dragHighlight = dragHighlight;
+    }
+
+    @Override
+    public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
+
+    }
 }
