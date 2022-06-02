@@ -21,7 +21,7 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -32,7 +32,7 @@ import android.widget.ImageView;
 
 /**
  * Implementation of RecyclerView.OnItemTouchListener that allows reordering items in RecyclerView by dragging and dropping.
- * Instance of this class should be added to RecylcerView using {@link android.support.v7.widget.RecyclerView#addOnItemTouchListener(android.support.v7.widget.RecyclerView.OnItemTouchListener)} method.
+ * Instance of this class should be added to RecylcerView using {@link RecyclerView#addOnItemTouchListener(RecyclerView.OnItemTouchListener)} method.
  * <p/>
  * <p/>
  * Use something like this:
